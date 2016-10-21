@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "581765520491",
+    "firebase_url": "https://mmthack-cd358.firebaseio.com",
+    "project_id": "mmthack-cd358",
+    "storage_bucket": "mmthack-cd358.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581765520491:android:2535a7be1c8507cc",
+        "android_client_info": {
+          "package_name": "com.codetroopers.makemytrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581765520491-b5qhb0vgkq2ruotu7k1qudqp2j8ablup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codetroopers.makemytrip",
+            "certificate_hash": "1E413FA643845F1E46340E9AF0FC673CDBBE695E"
+          }
+        },
+        {
+          "client_id": "581765520491-ns0gtif5rcjrr0ua2naq1vhkljfpvbah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCww8b7XrLKY966B_kYf-sF0iJj_fJ394I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581765520491-ns0gtif5rcjrr0ua2naq1vhkljfpvbah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

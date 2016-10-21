@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvMumbai"
+        android:layout_width="fill_parent"
+        android:clickable="true"
+        card_view:cardBackgroundColor="@android:color/black"
+        android:layout_height="200dp">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/snckImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/coins"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/snckTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"/>
+</LinearLayout>
+</android.support.v7.widget.CardView>

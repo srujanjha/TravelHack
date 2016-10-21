@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codetroopers.makemytrip.TaskActivity">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvMumbai"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardBackgroundColor="@android:color/black"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:src="@drawable/hyderabad"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:text="Mumbai"
+            android:gravity="top"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
